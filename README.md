@@ -21,7 +21,7 @@ Then share the links for the GitHub code.  These are what we will look for in th
 
 ## API Usage referance (Works for both products and brands endpoints)
 
-### Filter
+    ### Filter
         
         Use `.` to access deep properties
         
@@ -30,7 +30,7 @@ Then share the links for the GitHub code.  These are what we will look for in th
         GET /products?brand.manufacturer_id=233
         ```
         
-        ### Paginate
+    ### Paginate
         
         Use `_page` and optionally `_limit` to paginate returned data.
         
@@ -44,7 +44,7 @@ Then share the links for the GitHub code.  These are what we will look for in th
         
         _10 items are returned by default_
         
-        ### Sort
+    ### Sort
         
         Add `_sort` and `_order` (ascending order by default)
         
@@ -52,7 +52,7 @@ Then share the links for the GitHub code.  These are what we will look for in th
         GET /products?_sort=views&_order=asc
         ```
        
-        ### Operators
+    ### Operators
         
         Add `_gte` or `_lte` for getting a range
         
@@ -71,6 +71,7 @@ Then share the links for the GitHub code.  These are what we will look for in th
         ```
         GET /brands?name_like=chicco
         ```
+        
 **Additional notes:**
 * Feel free to add your creative touch to the site design.
 * Keep the exercise simple.  This is not something that should take more than four to eight hours of effort for someone familiar with the technologies, and maybe twice as long for someone who's never used git and heroku before.
