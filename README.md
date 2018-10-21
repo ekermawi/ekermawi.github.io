@@ -23,54 +23,42 @@ Then share the links for the GitHub code.  These are what we will look for in th
 
 ### Filter
         
-    Use `.` to access deep properties
+Use `.` to access deep properties
     
-    ```
     GET /products?gender=boys
     GET /products?brand.manufacturer_id=233
-    ```
         
 ### Paginate
         
-    Use `_page` and optionally `_limit` to paginate returned data.
+Use `_page` and optionally `_limit` to paginate returned data.
+
+In the `Link` header you'll get `first`, `prev`, `next` and `last` links.
     
-    In the `Link` header you'll get `first`, `prev`, `next` and `last` links.
-    
-    
-    ```
     GET /products?_page=7
     GET /products?_page=7&_limit=20
-    ```
     
-    _10 items are returned by default_
+_10 items are returned by default_
         
 ### Sort
         
-    Add `_sort` and `_order` (ascending order by default)
+Add `_sort` and `_order` (ascending order by default)
     
-    ```
     GET /products?_sort=views&_order=asc
-    ```
        
 ### Operators
         
-    Add `_gte` or `_lte` for getting a range
+Add `_gte` or `_lte` for getting a range
     
-    ```
     GET /products?price_gte=10&price_lte=20
-    ```
     
-    Add `_ne` to exclude a value
+Add `_ne` to exclude a value
     
-    ```
     GET /products?sale_ne=false
-    ```
     
-    Add `_like` to filter (RegExp supported)
+Add `_like` to filter (RegExp supported)
     
-    ```
     GET /brands?name_like=chicco
-    ```
+    
         
 **Additional notes:**
 * Feel free to add your creative touch to the site design.
