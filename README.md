@@ -8,7 +8,8 @@ Coding exercise
     * Filters, pagination, sorting ,and changing page limit should be done on the client-side without page refresh or redirects.
     * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
     * Use HTML, CSS and jQuery (using native JS instead of jQuery is a plus)
-    * The site should be responsive.  
+    * The site should be responsive.
+    * Des
 4. Push your code to GitHub
 6. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much (or little) experience you have with the particular language and framework you chose.
 7. Extra credit if your project is deployed in [http://heroku.com](http://heroku.com)
