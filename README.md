@@ -5,14 +5,12 @@ Coding exercise
     * It is a JSON API that presents a bunch of baby products.
 3. Create a very simple site that consumes this API as a client-side call and displays products in an appealing manner. A few requirements:
     * The call should be client-side and not done as an redirects
-    * Filters, pagination, sorting ,and changing page limit should be done on the client-side without page refresh or redirects.
+    * Filters, pagination, sorting, and changing page limit should be done on the client-side (AJAX) without page refresh or redirects.
     * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
     * Use HTML, CSS and jQuery (using native JS instead of jQuery is a plus)
     * The site should be responsive.
-    * Des
 4. Push your code to GitHub
-6. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much (or little) experience you have with the particular language and framework you chose.
-7. Extra credit if your project is deployed in [http://heroku.com](http://heroku.com)
+6. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much experience you have with the particular language and framework you chose.
 
 Then share the links for the GitHub code.  These are what we will look for in the solution:
 
@@ -63,4 +61,4 @@ Add `_like` to filter (RegExp supported)
         
 **Additional notes:**
 * Feel free to add your creative touch to the site design.
-* Keep the exercise simple.  This is not something that should take more than four to eight hours of effort for someone familiar with the technologies, and maybe twice as long for someone who's never used git and heroku before.
+* Keep the exercise simple.  This is not something that should take more than four to eight hours of effort for someone familiar with the technologies, and maybe twice as long for someone who's never used git before.
