@@ -7,9 +7,10 @@ Coding exercise
     * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
     * The call should be server-side and not done as an AJAX call
     * The call should be dynamic (on each request) and not from a saved/cached file
-    * Feel free to do it in a language of your choosing. For example, Java, Scala, Ruby, Python, PHP, NodeJS, Elixir (PHP is a plus). Please indicate in your ABOUT.md file why you picked the language you did.
+    * Feel free to do it in a language of your choosing. For example, Java, Scala, Ruby, Python, PHP, NodeJS, Elixir (PHP is a plus).
 4. Push your code to GitHub
 6. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much experience you have with the particular language and framework you chose.
+7. Document the instructions for setting the site up in a local sandbox in your README.md file. Also document any assumptions you've made about the API or the runtime environment
 
 Then share the links for the GitHub code.  These are what we will look for in the solution:
 
