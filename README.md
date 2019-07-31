@@ -3,19 +3,20 @@ Coding exercise
 
 1. Look at this URL: [https://journal.dumyah.com/coding-test/products](https://journal.dumyah.com/coding-test/products)
     * It is a JSON API that presents a bunch of baby products.
-3. Create a very simple site that consumes this API as a client-side call and displays products in an appealing manner. A few requirements:
+3. Create a very simple site that consumes this API as a server-side call and displays products in an appealing manner. A few requirements:
     * The call should be client-side and not done as an redirects
     * Filters, pagination, sorting, and changing page limit should be done on the client-side (AJAX) without page refresh or redirects.
     * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
-    * Use HTML, CSS and jQuery (using native JS instead of jQuery is a plus)
-    * The site should be responsive.
+    * The call should be server-side and not done as an AJAX call
+    * The call should be dynamic (on each request) and not from a saved/cached file
+    * Feel free to do it in a language of your choosing. For example, Java, Scala, Ruby, Python, PHP, NodeJS, Elixir (PHP is a plus). Please indicate in your ABOUT.md file why you picked the language you did.
 4. Push your code to GitHub
 6. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much experience you have with the particular language and framework you chose.
 
 Then share the links for the GitHub code.  These are what we will look for in the solution:
 
 * **Readability**: Coding style, method/variable/etc. names, encapsulation
-* **Structure**: Code architecture. Try not to overarchitect your solution
+* **Structure**: Code architecture. Object design and code architecture. Try not to overarchitect your solution
 * **Documentation**: Clarity of communication in your documentation. Also, the quality of your commit messages
 
 ## API Usage referance (Works for both products and brands endpoints)
