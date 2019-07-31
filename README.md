@@ -4,8 +4,6 @@ Coding exercise
 1. Look at this URL: [https://journal.dumyah.com/coding-test/products](https://journal.dumyah.com/coding-test/products)
     * It is a JSON API that presents a bunch of baby products.
 3. Create a very simple site that consumes this API as a server-side call and displays products in an appealing manner. A few requirements:
-    * The call should be client-side and not done as an redirects
-    * Filters, pagination, sorting, and changing page limit should be done on the client-side (AJAX) without page refresh or redirects.
     * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
     * The call should be server-side and not done as an AJAX call
     * The call should be dynamic (on each request) and not from a saved/cached file
