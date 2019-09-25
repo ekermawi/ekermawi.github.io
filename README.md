@@ -1,13 +1,13 @@
 Coding exercise
 ===============
 
-1. Look at this URL: [https://journal.dumyah.com/coding-test/products](https://journal.dumyah.com/coding-test/products)
+1. Look at this URL: [https://staging.dumyah.com/coding-test/products](https://staging.dumyah.com/coding-test/products)
     * It is a JSON API that presents a bunch of baby products.
 2. Create a very simple site that consumes this API as a server-side call and displays products in an appealing manner. A few requirements:
-    * Brands filter is an autocomplete filter. Use [https://journal.dumyah.com/coding-test/brands](https://journal.dumyah.com/coding-test/brands) endpoint. 
+    * Brands filter is an autocomplete filter. Use [https://staging.dumyah.com/coding-test/brands](https://staging.dumyah.com/coding-test/brands) endpoint. 
     * The call should be server-side and not done as an AJAX call
     * The call should be dynamic (on each request) and not from a saved/cached file
-    * Feel free to do it in a language of your choosing. For example, Java, Scala, Ruby, Python, PHP, NodeJS, Elixir (PHP is a plus).
+    * Use PHP  language
 3. Push your code to GitHub
 4. In a file called `ABOUT.md`, document what you wanted to accomplish with your application. Include your thought process as you built the application. Also include what you learned in the process. Mention how much experience you have with the particular language and framework you chose.
 5. Document the instructions for setting the site up in a local sandbox in your README.md file. Also document any assumptions you've made about the API or the runtime environment
